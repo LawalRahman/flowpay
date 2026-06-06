@@ -1,0 +1,20 @@
+{
+  "name": "flowpay",
+  "version": "0.1.0",
+  "description": "Event-Driven Micropayments on Stellar",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check"
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  }
+}
